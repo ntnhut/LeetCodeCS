@@ -3,42 +3,34 @@ using System.Collections.Generic;
 
 namespace _208ImplementTrie_PrefixTree
 {
-    public class Node
-    {
-        public Dictionary<char, Node> children;
-        public bool leave { get; set; }
-        public Node()
-        {
-            children = new Dictionary<char, Node>();
-            leave = false;
-        }
-    }
     public class Trie
     {
-        private Node _root;
+        private Dictionary<char, Trie> children;
+        public bool isWord { get; set; }
 
         public Trie()
         {
-            _root = new Node();
+            children = new Dictionary<char, Trie>();
+            isWord = false;
         }
 
         public void Insert(string word)
         {
-            Node n = _root;
+            Trie n = this;
             foreach (char c in word)
             {
                 if (n.children.ContainsKey(c) == false)
                 {
-                    n.children.Add(c, new Node());
+                    n.children.Add(c, new Trie());
                 }
                 n = n.children[c];
             }
-            n.leave = true;
+            n.isWord = true;
         }
 
         public bool Search(string word)
         {
-            Node n = _root;
+            Trie n = this;
             foreach (char c in word)
             {
                 if (n.children.ContainsKey(c))
@@ -49,12 +41,12 @@ namespace _208ImplementTrie_PrefixTree
                     return false;
                 }
             }
-            return n.leave;
+            return n.isWord;
         }
 
         public bool StartsWith(string prefix)
         {
-            Node n = _root;
+            Trie n = this;
             foreach (char c in prefix)
             {
                 if (n.children.ContainsKey(c))
