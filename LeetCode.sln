@@ -7,7 +7,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "463IslandPerimeter", "463Is
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "79WordSearch", "79WordSearch\79WordSearch.csproj", "{08E0C05B-861D-426E-9D22-61A22A4921AC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "208ImplementTrie-PrefixTree", "208ImplementTrie-PrefixTree\208ImplementTrie-PrefixTree.csproj", "{96DF7BE3-5DDB-4941-ADA7-DF8DE34E966A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "208ImplementTrie-PrefixTree", "208ImplementTrie-PrefixTree\208ImplementTrie-PrefixTree.csproj", "{96DF7BE3-5DDB-4941-ADA7-DF8DE34E966A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "543DiameterOfBinaryTree", "543DiameterOfBinaryTree\543DiameterOfBinaryTree.csproj", "{EB564B94-E2A7-4508-B45F-2CD29764EF84}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{96DF7BE3-5DDB-4941-ADA7-DF8DE34E966A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{96DF7BE3-5DDB-4941-ADA7-DF8DE34E966A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{96DF7BE3-5DDB-4941-ADA7-DF8DE34E966A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB564B94-E2A7-4508-B45F-2CD29764EF84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB564B94-E2A7-4508-B45F-2CD29764EF84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB564B94-E2A7-4508-B45F-2CD29764EF84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB564B94-E2A7-4508-B45F-2CD29764EF84}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
