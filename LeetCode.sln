@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "208ImplementTrie-PrefixTree
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "543DiameterOfBinaryTree", "543DiameterOfBinaryTree\543DiameterOfBinaryTree.csproj", "{EB564B94-E2A7-4508-B45F-2CD29764EF84}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "374GuessNumberHigherOrLower", "374GuessNumberHigherOrLower\374GuessNumberHigherOrLower.csproj", "{A12AF54B-92C6-45A5-9C02-285E4F45379B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "374GuessNumberHigherOrLower", "374GuessNumberHigherOrLower\374GuessNumberHigherOrLower.csproj", "{A12AF54B-92C6-45A5-9C02-285E4F45379B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1008ConstructBinarySearchTreeFromPreorderTraversal", "1008ConstructBinarySearchTreeFromPreorderTraversal\1008ConstructBinarySearchTreeFromPreorderTraversal.csproj", "{B82F3610-791F-498D-AD27-073861A43B48}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{A12AF54B-92C6-45A5-9C02-285E4F45379B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A12AF54B-92C6-45A5-9C02-285E4F45379B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A12AF54B-92C6-45A5-9C02-285E4F45379B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B82F3610-791F-498D-AD27-073861A43B48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B82F3610-791F-498D-AD27-073861A43B48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B82F3610-791F-498D-AD27-073861A43B48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B82F3610-791F-498D-AD27-073861A43B48}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
