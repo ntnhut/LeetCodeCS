@@ -10,20 +10,18 @@ namespace _309BestTimeToBuyAndSellStockWithCooldown
             {
                 return 0;
             }
-            var s0 = new int[prices.Length];
-            var s1 = new int[prices.Length];
-            var s2 = new int[prices.Length];
-            s0[0] = 0;
-            s1[0] = -prices[0];
-            s2[0] = int.MinValue;
-
+            int s0 = 0;
+            int s1 = -prices[0];
+            int s2 = int.MinValue;
+            int prevS2;
             for (int i = 1; i < prices.Length; i++)
             {
-                s0[i] = Math.Max(s2[i-1], s0[i-1]);
-                s1[i] = Math.Max(s0[i-1] - prices[i], s1[i-1]);
-                s2[i] = s1[i - 1] + prices[i];
+                prevS2 = s2;
+                s2 = s1 + prices[i];
+                s1 = Math.Max(s1, s0 - prices[i]);
+                s0 = Math.Max(prevS2, s0);
             }
-            return Math.Max(s0[prices.Length - 1], s2[prices.Length - 1]);
+            return Math.Max(s0, s2);
         }
     }
     class Program
