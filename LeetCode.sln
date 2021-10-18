@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "374GuessNumberHigherOrLower
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1008ConstructBinarySearchTreeFromPreorderTraversal", "1008ConstructBinarySearchTreeFromPreorderTraversal\1008ConstructBinarySearchTreeFromPreorderTraversal.csproj", "{B82F3610-791F-498D-AD27-073861A43B48}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "279PerfectSquares", "279PerfectSquares\279PerfectSquares.csproj", "{D4412AD0-F554-4E0B-95DE-D35CFCFF2B5E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "279PerfectSquares", "279PerfectSquares\279PerfectSquares.csproj", "{D4412AD0-F554-4E0B-95DE-D35CFCFF2B5E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "309BestTimeToBuyAndSellStockWithCooldown", "309BestTimeToBuyAndSellStockWithCooldown\309BestTimeToBuyAndSellStockWithCooldown.csproj", "{61A64736-BF70-4B82-AA21-828C4D25065C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{D4412AD0-F554-4E0B-95DE-D35CFCFF2B5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D4412AD0-F554-4E0B-95DE-D35CFCFF2B5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D4412AD0-F554-4E0B-95DE-D35CFCFF2B5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61A64736-BF70-4B82-AA21-828C4D25065C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61A64736-BF70-4B82-AA21-828C4D25065C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61A64736-BF70-4B82-AA21-828C4D25065C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61A64736-BF70-4B82-AA21-828C4D25065C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
